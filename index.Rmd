@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# This is Michael's awesome website
 
 you can learn about me [here](about.html)
 
