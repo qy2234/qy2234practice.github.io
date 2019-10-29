@@ -1,3 +1,4 @@
+
 name: "Yay internet!"
 output_dir: "."
 navbar:
@@ -5,10 +6,16 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: Examples
+      menu:
+      - text: "Plotly"
+        href: plotly.html
+      - text: "Dashboard"
+        href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/bst-p8105/
 output:
   html_document:
-    theme: cerulean
+    theme: journal
